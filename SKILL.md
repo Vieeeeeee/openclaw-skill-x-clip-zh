@@ -59,4 +59,12 @@ description: Translate or clip a user-provided X/Twitter or web link into Chines
 - If you also want to add interpretation or a rewritten note-style version, keep it clearly separate from the translation.
 - For X clips, images are part of the clipping, not optional decoration. If the source has meaningful images, save and embed them by default.
 - Readability rule: image placement must preserve reading flow. Dumping all images at the top is considered a bad clip and should be fixed before reporting completion.
+- Prefer auto-detection first, then ask focused questions only when the environment is ambiguous.
+- If the environment is missing prerequisites, stop with a concrete explanation rather than faking completion.
+- Do not run external actions beyond fetch, read, write, and verification unless explicitly requested.
+rst, not paraphrase-first.
+- Preserve the source's sectioning and argument flow as much as the available extraction allows.
+- If you also want to add interpretation or a rewritten note-style version, keep it clearly separate from the translation.
+- For X clips, images are part of the clipping, not optional decoration. If the source has meaningful images, save and embed them by default.
+- Readability rule: image placement must preserve reading flow. Dumping all images at the top is considered a bad clip and should be fixed before reporting completion.
 - Do not run external actions beyond fetch, read, write, and verification unless explicitly requested.
