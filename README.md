@@ -37,6 +37,7 @@
 - 使用 Obsidian 本地 embed，而不是远程图片热链
 - 图片尽量按原文阅读节奏插入，而不是全堆顶部
 - 写入后验证 Markdown、图片、embed 是否真实存在
+- 所有笔记使用 YAML front matter 表头，记录来源、作者、日期、标签等信息
 
 ## 默认工作方式
 
@@ -107,6 +108,26 @@
 - 一组下载到本地的图片文件（如果原文有图）
 - Obsidian 本地 embed
 - 一个完成报告：路径、来源、是否有图、摘要
+
+## 表头格式
+
+所有笔记统一使用 YAML front matter，格式如下：
+
+```yaml
+---
+title: <中文标题>
+source: <原始链接>
+author: <作者，如已知>
+published: <发表日期，YYYY-MM 或 YYYY-MM-DD>
+clipped: <剪藏日期，YYYY-MM-DD>
+tags:
+  - <标签1>
+  - <标签2>
+created: <剪藏日期，YYYY-MM-DD>
+---
+```
+
+不再使用内联 `**来源:**`、`**日期:**` 等写法，所有元数据统一放在表头。
 
 ## 输出约定
 
