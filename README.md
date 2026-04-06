@@ -1,6 +1,6 @@
-# x-clip-zh
+# web-clip-zh
 
-把 X/Twitter 或网页链接，自动剪藏成中文 Obsidian Markdown 笔记的 OpenClaw skill。
+把互联网上的任意文章（支持 X/Twitter、博客、新闻、文档等），自动剪藏成中文 Obsidian Markdown 笔记的 OpenClaw skill。
 
 它不是那种只会存个链接的半残工具，而是把正文抓下来、该翻译的翻译、该下图的下图、该落盘的落盘，最后还会检查是不是**真的写进了用户自己的 vault**。
 

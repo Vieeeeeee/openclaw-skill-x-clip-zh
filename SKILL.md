@@ -1,6 +1,6 @@
 ---
-name: x-clip-zh
-description: Translate or clip a user-provided X/Twitter or web link into Chinese notes (if source is already Chinese, keep original text), save as a Markdown clipping into an Obsidian vault's `Clippings` folder, include source images when present, verify file visibility in the real vault path, then report completion with a ~200 Chinese-character summary. Use when the user says things like "翻译这个链接放到 Obsidian/笔记"、"把这个推文存到 Obsidian"、"剪藏这条推文"、"把这个链接收进笔记"、"保存这篇文章到笔记库"、"把这个网页存到笔记"、"帮我收藏这篇文章到 Obsidian"、"把这条推文剪藏到 Obsidian"、"链接存到 Obsidian"、"帮我把这个链接保存到笔记库"、"把这个网页内容保存到笔记"、"链接归档到 Obsidian"、"把这个帖子存到笔记软件"、"帮我把链接 clip 到 Obsidian"、"翻译并归档这个链接"、"把这条内容存进笔记库"、"网页剪藏 Obsidian"、"链接保存 Obsidian" or asks for link-to-note or link-to-Obsidian clipping workflows.
+name: web-clip-zh
+description: Translate or clip a user-provided web article link into Chinese notes (if source is already Chinese, keep original text), save as a Markdown clipping into an Obsidian vault's `Clippings` folder, include source images when present, verify file visibility in the real vault path, then report completion with a ~200 Chinese-character summary. Use when the user says things like "翻译这个链接放到 Obsidian/笔记"、"把这个推文存到 Obsidian"、"剪藏这条推文"、"把这个链接收进笔记"、"保存这篇文章到笔记库"、"把这个网页存到笔记"、"帮我收藏这篇文章到 Obsidian"、"把这条推文剪藏到 Obsidian"、"链接存到 Obsidian"、"帮我把这个链接保存到笔记库"、"把这个网页内容保存到笔记"、"链接归档到 Obsidian"、"把这个帖子存到笔记软件"、"帮我把链接 clip 到 Obsidian"、"翻译并归档这个链接"、"把这条内容存进笔记库"、"网页剪藏 Obsidian"、"链接保存 Obsidian"、"把网页内容存到 Obsidian"、"帮我把这个文章剪藏" or asks for link-to-note or link-to-Obsidian clipping workflows.
 ---
 
 # X Clip Zh
